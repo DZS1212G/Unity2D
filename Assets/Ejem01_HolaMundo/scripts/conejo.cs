@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class conejo : MonoBehaviour
@@ -20,12 +21,12 @@ public class conejo : MonoBehaviour
         transform.position += Vector3.right * speed * Time.deltaTime;
 
         // invertir dirección si llegamos a los límites (con tolerancia)
-        if (transform.position.x >= rightLimit)
+        if (transform.position.x > rightLimit)
         {
             spriteRenderer.flipX = true;
             speed = -speed;
         }
-        else if (transform.position.x <= leftLimit)
+        else if (transform.position.x < leftLimit)
         {
             spriteRenderer.flipX = false;
             speed = -speed;
