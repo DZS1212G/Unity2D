@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PacMan : MonoBehaviour
 {
-    public int speed = 5;
+    public int speed;
     SpriteRenderer spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,9 +17,20 @@ public class PacMan : MonoBehaviour
         float movimientoH = Input.GetAxis("Horizontal");
         float movimientoV = Input.GetAxis("Vertical");
         this.transform.Translate(new Vector3(movimientoH, movimientoV, 0) * Time.deltaTime * speed);
-        if(movimientoV>1){
+        if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)){
             spriteRenderer.flipX = true;
-            speed = -speed;
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        {
+            spriteRenderer.flipX = false;
+        }
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        {
+
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+        {
+            
         }
     }
 }
