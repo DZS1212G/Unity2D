@@ -24,11 +24,11 @@ public class nube : MonoBehaviour
         // invertir dirección si llegamos a los límites (con tolerancia)
         if (transform.position.x >= rightLimit)
         {
-            speed = -5f;
+            speed = -speed;
         }
         else if ( transform.position.x <= leftLimit)
         {
-            speed = 5f;
+            speed = -speed;
         }
     }
  //    if (this.transform.position.x > limiteDerecho)

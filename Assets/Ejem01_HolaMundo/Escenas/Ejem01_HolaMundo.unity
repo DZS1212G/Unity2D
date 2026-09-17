@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a188d062ce9fdf4a953f3a23d4283d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::nube
-  speed: 8
+  speed: 4
   leftLimit: -10
   rightLimit: 10
 --- !u!1 &519420028
@@ -865,6 +865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61914158a6b0b66489b54304a8f11976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::conejo
+  speed: 5
+  leftLimit: -10
+  rightLimit: 10
 --- !u!1 &1896483748
 GameObject:
   m_ObjectHideFlags: 0
