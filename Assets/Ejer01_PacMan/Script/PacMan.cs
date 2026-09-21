@@ -24,13 +24,5 @@ public class PacMan : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-        {
-
-        }
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
-            
-        }
     }
 }
