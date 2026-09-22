@@ -41,4 +41,12 @@ public class fantasma : MonoBehaviour
             speedY = -speedY;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Pacman")
+        {
+            Destroy(collision.gameObject);
+            Debug.Log("GAME OVER");
+        }
+    }
 }

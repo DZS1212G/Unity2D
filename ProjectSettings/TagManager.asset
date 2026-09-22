@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rojo
   - Azul
+  - Pacman
   layers:
   - Default
   - TransparentFX
