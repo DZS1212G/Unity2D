@@ -17,6 +17,7 @@ public class PacMan : MonoBehaviour
         float movimientoH = Input.GetAxis("Horizontal");
         float movimientoV = Input.GetAxis("Vertical");
         this.transform.Translate(new Vector3(movimientoH, movimientoV, 0) * Time.deltaTime * speed);
+
         if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)){
             spriteRenderer.flipX = true;
         }
