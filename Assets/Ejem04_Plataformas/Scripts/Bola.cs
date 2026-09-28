@@ -19,21 +19,32 @@ public class Bola : MonoBehaviour
     {
         float movimientoH = Input.GetAxis("Horizontal");
         this.transform.Translate(new Vector3(movimientoH,0,0) * Time.deltaTime * speed);
-        if (movimientoH>0)
+   
+        if (Input.GetKeyDown(KeyCode.Space) && suelo)
+        {           
+            GetComponent<Rigidbody2D>().AddForce(Vector3.up * salto, ForceMode2D.Impulse);
+            
+
+        }
+        if (!suelo)
         {
-            this.animatorPersonaje.SetInteger("Valor", 2);
+            this.animatorPersonaje.SetInteger("Valor", 3);
+        }
+        else if (movimientoH > 0)
+        {
             this.spriteRender.flipX = false;
-        } 
-        else if (movimientoH<0)
+            this.animatorPersonaje.SetInteger("Valor", 2);
+            
+        }
+        else if (movimientoH < 0)
         {
             this.spriteRender.flipX = true;
             this.animatorPersonaje.SetInteger("Valor", 2);
         }
-       
-        if (Input.GetKeyDown(KeyCode.Space) && suelo)
+        
+        else
         {
-            GetComponent<Rigidbody2D>().AddForce(Vector3.up * salto, ForceMode2D.Impulse);
-            this.animatorPersonaje.SetInteger("Valor", 3);
+            animatorPersonaje.SetInteger("Valor", 0);
         }
     }
     
