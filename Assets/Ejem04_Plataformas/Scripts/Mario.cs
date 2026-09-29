@@ -21,6 +21,7 @@ public class Mario : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         float movimientoH = Input.GetAxis("Horizontal");
         this.transform.Translate(new Vector3(movimientoH,0,0) * Time.deltaTime * speed);
    

@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 227993589}
   - component: {fileID: 227993591}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Bandera
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -325,7 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1178749965}
-  - component: {fileID: 1178749966}
+  - component: {fileID: 1178749967}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -348,7 +348,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1178749966
+--- !u!114 &1178749967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -357,9 +357,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178749964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9d51ffc6bd0df040acd79c6acd8e0a5, type: 3}
+  m_Script: {fileID: 11500000, guid: e462800ef470bc246811c09bab3c50c4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameControllerPlatform
+  m_EditorClassIdentifier: Assembly-CSharp::GameController2
   mario: {fileID: 1227513369}
 --- !u!1 &1227513369 stripped
 GameObject:
