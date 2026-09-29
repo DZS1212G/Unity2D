@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Bola : MonoBehaviour
+public class Mario : MonoBehaviour
 {
+    int contador = 0;
     public float speed;
     public float salto;
     bool suelo = false;
@@ -20,11 +22,16 @@ public class Bola : MonoBehaviour
         float movimientoH = Input.GetAxis("Horizontal");
         this.transform.Translate(new Vector3(movimientoH,0,0) * Time.deltaTime * speed);
    
-        if (Input.GetKeyDown(KeyCode.Space) && suelo)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && suelo)
         {           
             GetComponent<Rigidbody2D>().AddForce(Vector3.up * salto, ForceMode2D.Impulse);
-            
+            contador++;
+            Debug.Log("Saltos: "+ contador);
 
+        }
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            this.transform.Translate(new Vector3(movimientoH, 0, 0) * Time.deltaTime * speed*1.5f);
         }
         if (!suelo)
         {
@@ -55,10 +62,18 @@ public class Bola : MonoBehaviour
             this.animatorPersonaje.SetInteger("Valor", 0);
             suelo = true;
         }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("Platform2");
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
            suelo = false;
         
+    }
+    private void OnBecameInvisible()
+    {
+        this.transform.position = new Vector3(0, 0, 0);
     }
 }
