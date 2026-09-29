@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.iOS;
 using UnityEngine.SceneManagement;
 
 public class Mario : MonoBehaviour
@@ -9,6 +10,7 @@ public class Mario : MonoBehaviour
     bool suelo = false;
     private Animator animatorPersonaje;
     private SpriteRenderer spriteRender;
+    private Vector3 inicio;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
