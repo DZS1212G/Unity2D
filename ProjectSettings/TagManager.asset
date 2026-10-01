@@ -8,6 +8,7 @@ TagManager:
   - Azul
   - Pacman
   - Suelo
+  - Enemy
   layers:
   - Default
   - TransparentFX

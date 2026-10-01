@@ -16,6 +16,7 @@ public class Mario : MonoBehaviour
     {
         this.animatorPersonaje = this.GetComponent<Animator>();
         this.spriteRender = this.GetComponent<SpriteRenderer>();
+        inicio = this.transform.position;
     }
 
     // Update is called once per frame
@@ -62,12 +63,17 @@ public class Mario : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Suelo"))
         {
-            this.animatorPersonaje.SetInteger("Valor", 0);
             suelo = true;
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
             SceneManager.LoadScene("Platform2");
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            GameObject copia = this.gameObject;
+            this.animatorPersonaje.SetInteger("Valor", 1);
+            this.transform.position = inicio;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -77,6 +83,6 @@ public class Mario : MonoBehaviour
     }
     private void OnBecameInvisible()
     {
-        this.transform.position = new Vector3(0, 0, 0);
+        this.transform.position = inicio;
     }
 }
