@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem.iOS;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,7 @@ public class Mario : MonoBehaviour
     private Animator animatorPersonaje;
     private SpriteRenderer spriteRender;
     private Vector3 inicio;
+    private Boolean death = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,45 +24,55 @@ public class Mario : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        float movimientoH = Input.GetAxis("Horizontal");
-        this.transform.Translate(new Vector3(movimientoH,0,0) * Time.deltaTime * speed);
-   
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && suelo)
-        {           
-            GetComponent<Rigidbody2D>().AddForce(Vector3.up * salto, ForceMode2D.Impulse);
-            contador++;
-            Debug.Log("Saltos: "+ contador);
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            this.transform.position = inicio;
 
+            death = false;
         }
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (!death)
         {
-            this.transform.Translate(new Vector3(movimientoH, 0, 0) * Time.deltaTime * speed*1.5f);
+            float movimientoH = Input.GetAxis("Horizontal");
+            this.transform.Translate(new Vector3(movimientoH, 0, 0) * Time.deltaTime * speed);
+
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && suelo)
+            {
+                GetComponent<Rigidbody2D>().AddForce(Vector3.up * salto, ForceMode2D.Impulse);
+                contador++;
+                Debug.Log("Saltos: " + contador);
+
+            }
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                this.transform.Translate(new Vector3(movimientoH, 0, 0) * Time.deltaTime * speed * 1.5f);
+            }
+            if (!suelo)
+            {
+                this.animatorPersonaje.SetInteger("Valor", 3);
+            }
+            else if (movimientoH > 0)
+            {
+                this.spriteRender.flipX = false;
+                this.animatorPersonaje.SetInteger("Valor", 2);
+
+            }
+            else if (movimientoH < 0)
+            {
+                this.spriteRender.flipX = true;
+                this.animatorPersonaje.SetInteger("Valor", 2);
+            }
+
+            else
+            {
+                animatorPersonaje.SetInteger("Valor", 0);
+            }
         }
-        if (!suelo)
-        {
-            this.animatorPersonaje.SetInteger("Valor", 3);
-        }
-        else if (movimientoH > 0)
-        {
-            this.spriteRender.flipX = false;
-            this.animatorPersonaje.SetInteger("Valor", 2);
-            
-        }
-        else if (movimientoH < 0)
-        {
-            this.spriteRender.flipX = true;
-            this.animatorPersonaje.SetInteger("Valor", 2);
-        }
-        
-        else
-        {
-            animatorPersonaje.SetInteger("Valor", 0);
-        }
+       
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
         if (collision.gameObject.CompareTag("Suelo"))
         {
             suelo = true;
@@ -71,9 +83,8 @@ public class Mario : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            GameObject copia = this.gameObject;
-            this.animatorPersonaje.SetInteger("Valor", 1);
-            this.transform.position = inicio;
+            animatorPersonaje.SetInteger("Valor", 1);
+            death = true;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
