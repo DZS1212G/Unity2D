@@ -13,23 +13,20 @@ public class Mario : MonoBehaviour
     private SpriteRenderer spriteRender;
     private Vector3 inicio;
     private Boolean death = false;
+    private GameController2 gameController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         this.animatorPersonaje = this.GetComponent<Animator>();
         this.spriteRender = this.GetComponent<SpriteRenderer>();
         inicio = this.transform.position;
+        gameController = GameObject.Find("GameController").GetComponent<GameController2>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            this.transform.position = inicio;
-
-            death = false;
-        }
         if (!death)
         {
             float movimientoH = Input.GetAxis("Horizontal");
@@ -67,7 +64,12 @@ public class Mario : MonoBehaviour
                 animatorPersonaje.SetInteger("Valor", 0);
             }
         }
-       
+        else
+        {
+            this.transform.position = inicio;
+            death = false;
+        }
+
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
@@ -83,8 +85,8 @@ public class Mario : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            animatorPersonaje.SetInteger("Valor", 1);
             death = true;
+            gameController.reducirVidas();
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
