@@ -10,6 +10,8 @@ public class GameController2 : MonoBehaviour
     public GameObject fondo;
     public GameObject flecha;
     public TextMeshProUGUI texto;
+    public Canvas canvas;
+    public int vidas = 3;
     private void Awake()
     {
         // Evitar que el GameController2 se duplique al cargar la nueva escena
@@ -26,6 +28,7 @@ public class GameController2 : MonoBehaviour
         {
             DontDestroyOnLoad(mario); // Mantenemos a Mario
             DontDestroyOnLoad(fondo);
+            DontDestroyOnLoad(canvas);
         }
     }
 
@@ -40,7 +43,8 @@ public class GameController2 : MonoBehaviour
     }
     private void Start()
     {
-        InvokeRepeating("crearFlecha", 1, 2);
+        texto.text = vidas.ToString();
+        InvokeRepeating("crearFlecha", 2, 2);
     }
     private void crearFlecha()
     {
@@ -50,17 +54,16 @@ public class GameController2 : MonoBehaviour
     }
     public void reducirVidas()
     {
-        if (int.Parse(texto.text) == 1)
+        if (vidas == 1)
         {
             texto.text = "Game Over";
             Destroy(mario);
-            texto.rectTransform.position = (new Vector2(114, 11));
+            texto.rectTransform.position = (new Vector2(400, 150));
         }
         else
         {
-            int puntuacionActu = int.Parse(texto.text);
-            puntuacionActu--;
-            texto.text = puntuacionActu.ToString();
+            vidas--;
+            texto.text = vidas.ToString();
         }
     }
 }

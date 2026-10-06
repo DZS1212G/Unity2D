@@ -520,10 +520,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 295292892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 405, y: 122}
-  m_SizeDelta: {x: 200, y: -6.6477}
+  m_SizeDelta: {x: -440, y: -286.6477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876753566
 MonoBehaviour:
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -730,6 +730,8 @@ MonoBehaviour:
   fondo: {fileID: 227626483}
   flecha: {fileID: 2072930521903334249, guid: 613b96133e8b32f4f984e48ce2075f37, type: 3}
   texto: {fileID: 876753566}
+  canvas: {fileID: 295292891}
+  vidas: 3
 --- !u!1 &1227513369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5215963489539360764, guid: 13a699d68d0594f43b9504cfa5a8eced, type: 3}
