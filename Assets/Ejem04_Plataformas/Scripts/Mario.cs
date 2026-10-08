@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem.iOS;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +15,9 @@ public class Mario : MonoBehaviour
     private Vector3 inicio;
     private Boolean death = false;
     private GameController2 gameController;
+    private AudioSource audio;
+    public AudioClip sonido;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Start()
@@ -22,6 +26,7 @@ public class Mario : MonoBehaviour
         this.spriteRender = this.GetComponent<SpriteRenderer>();
         inicio = this.transform.position;
         gameController = GameObject.Find("GameController").GetComponent<GameController2>();
+        audio = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -97,5 +102,10 @@ public class Mario : MonoBehaviour
     private void OnBecameInvisible()
     {
         this.transform.position = inicio;
+    }
+
+    public void reproducirSonido()
+    {
+        audio.PlayOneShot(sonido);
     }
 }

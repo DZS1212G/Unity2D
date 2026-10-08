@@ -5,12 +5,14 @@ public class GameController6 : MonoBehaviour
 {
     public GameObject bola;
     public TextMeshProUGUI texto;
-
-
+    private AudioSource audioSource;
+    public AudioClip sonido;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         InvokeRepeating("crearBola", 1, 2);
+        audioSource = this.GetComponent<AudioSource>();
+        audioSource.PlayOneShot(sonido,0.3f);
     }
 
     // Update is called once per frame
