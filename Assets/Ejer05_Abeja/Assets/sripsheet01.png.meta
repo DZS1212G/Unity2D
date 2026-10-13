@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: 13d35dabecbd5544ab5ec4811d791d35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4599611680532004881
+    second: sripsheet01_0
+  - first:
+      213: -1196542757868408969
+    second: sripsheet01_1
+  - first:
+      213: -4459919395068797106
+    second: sripsheet01_2
+  - first:
+      213: -4257583650412681506
+    second: sripsheet01_3
+  - first:
+      213: 8301773692080709293
+    second: sripsheet01_4
+  - first:
+      213: 7433212229593153105
+    second: sripsheet01_5
+  - first:
+      213: 7826972109841883584
+    second: sripsheet01_6
+  - first:
+      213: -3036416065936648326
+    second: sripsheet01_7
+  - first:
+      213: 3449487391222285261
+    second: sripsheet01_8
+  - first:
+      213: 6885901428155924115
+    second: sripsheet01_9
+  - first:
+      213: -1478489391872103101
+    second: sripsheet01_10
+  - first:
+      213: -8522045325323715926
+    second: sripsheet01_11
+  - first:
+      213: -2018459184626907660
+    second: sripsheet01_12
+  - first:
+      213: -2061298180876631514
+    second: sripsheet01_13
+  - first:
+      213: 7528459285278674537
+    second: sripsheet01_14
+  - first:
+      213: -2523341233386454332
+    second: sripsheet01_15
+  - first:
+      213: -8984660863444486173
+    second: sripsheet01_16
+  - first:
+      213: 4615525426827406080
+    second: sripsheet01_17
+  - first:
+      213: -4493282827363625281
+    second: sripsheet01_18
+  - first:
+      213: 1473138399670536091
+    second: sripsheet01_19
+  - first:
+      213: -7442155766096664104
+    second: sripsheet01_20
+  - first:
+      213: -7688293106248952254
+    second: sripsheet01_21
+  - first:
+      213: -4865751594235546012
+    second: sripsheet01_22
+  - first:
+      213: -4905624384132674980
+    second: sripsheet01_23
+  - first:
+      213: 5822320712305392501
+    second: sripsheet01_24
+  - first:
+      213: -6172996576708867356
+    second: sripsheet01_25
+  - first:
+      213: -3071824507421320913
+    second: sripsheet01_26
+  - first:
+      213: 1519042849940669372
+    second: sripsheet01_27
+  - first:
+      213: -7716485819809244644
+    second: sripsheet01_28
+  - first:
+      213: 769217675729479588
+    second: sripsheet01_29
+  - first:
+      213: 4354293072837990523
+    second: sripsheet01_30
+  - first:
+      213: -3756358723360124005
+    second: sripsheet01_31
+  - first:
+      213: 6762220700862281409
+    second: sripsheet01_32
+  - first:
+      213: -4379664219590663402
+    second: sripsheet01_33
+  - first:
+      213: 8706389876908514104
+    second: sripsheet01_34
+  - first:
+      213: 1363895571910721228
+    second: sripsheet01_35
+  - first:
+      213: -5550343928728469741
+    second: sripsheet01_36
+  - first:
+      213: -7196339753326723364
+    second: sripsheet01_37
+  - first:
+      213: 2941405503232751340
+    second: sripsheet01_38
+  - first:
+      213: -2285967922747475415
+    second: sripsheet01_39
+  - first:
+      213: -355212274613757034
+    second: sripsheet01_40
+  - first:
+      213: -7521117188117685156
+    second: sripsheet01_41
+  - first:
+      213: -4956716222706391563
+    second: sripsheet01_42
+  - first:
+      213: 8128714876519752058
+    second: sripsheet01_43
+  - first:
+      213: -4540468743394747480
+    second: sripsheet01_44
+  - first:
+      213: 8466729588786495814
+    second: sripsheet01_45
+  - first:
+      213: 2670591854285357621
+    second: sripsheet01_46
+  - first:
+      213: -4413098957985956741
+    second: sripsheet01_47
+  - first:
+      213: -3760886875886337297
+    second: sripsheet01_48
+  - first:
+      213: 1705977716825990956
+    second: sripsheet01_49
+  - first:
+      213: -3715406618836631280
+    second: sripsheet01_50
+  - first:
+      213: -3835550130392479555
+    second: sripsheet01_51
+  - first:
+      213: -358616279022716206
+    second: sripsheet01_52
+  - first:
+      213: -3157567572716198808
+    second: sripsheet01_53
+  - first:
+      213: -2131827024348044023
+    second: sripsheet01_54
+  - first:
+      213: 1867891313092960474
+    second: sripsheet01_55
+  - first:
+      213: -854067345295847787
+    second: sripsheet01_56
+  - first:
+      213: 1406747015336760158
+    second: sripsheet01_57
+  - first:
+      213: 5508489617774266552
+    second: sripsheet01_58
+  - first:
+      213: -1684106727349417349
+    second: sripsheet01_59
+  - first:
+      213: -5325107817429288834
+    second: sripsheet01_60
+  - first:
+      213: 9162276073789273445
+    second: sripsheet01_61
+  - first:
+      213: 7221793752326544383
+    second: sripsheet01_62
+  - first:
+      213: -5489677188911187223
+    second: sripsheet01_63
+  - first:
+      213: 5550588863216270989
+    second: sripsheet01_64
+  - first:
+      213: 1370596959592460062
+    second: sripsheet01_65
+  - first:
+      213: 8447642446468509256
+    second: sripsheet01_66
+  - first:
+      213: -6406119402473398816
+    second: sripsheet01_67
+  - first:
+      213: 7525850820602045873
+    second: sripsheet01_68
+  - first:
+      213: -2762646371633299615
+    second: sripsheet01_69
+  - first:
+      213: 1395742254921039840
+    second: sripsheet01_70
+  - first:
+      213: -4567885693266473353
+    second: sripsheet01_71
+  - first:
+      213: -7947873266588893835
+    second: sripsheet01_72
+  - first:
+      213: -4578220097892517951
+    second: sripsheet01_73
+  - first:
+      213: -1661380195128009075
+    second: sripsheet01_74
+  - first:
+      213: 7316080200555846749
+    second: sripsheet01_75
+  - first:
+      213: 38543241066547635
+    second: sripsheet01_76
+  - first:
+      213: -7973037288715897439
+    second: sripsheet01_77
+  - first:
+      213: 1651826759510075441
+    second: sripsheet01_78
+  - first:
+      213: -6215430519614275704
+    second: sripsheet01_79
+  - first:
+      213: -4109486686545673319
+    second: sripsheet01_80
+  - first:
+      213: 7267945990736641569
+    second: sripsheet01_81
+  - first:
+      213: 1936203254330959210
+    second: sripsheet01_82
+  - first:
+      213: -1345004272524022108
+    second: sripsheet01_83
+  - first:
+      213: -6210421448210484000
+    second: sripsheet01_84
+  - first:
+      213: -8551816364316171166
+    second: sripsheet01_85
+  - first:
+      213: -3382234545873228206
+    second: sripsheet01_86
+  - first:
+      213: -6199981592187292559
+    second: sripsheet01_87
+  - first:
+      213: 4565879984543058234
+    second: sripsheet01_88
+  - first:
+      213: 1399884387044686251
+    second: sripsheet01_89
+  - first:
+      213: -3661477239517923412
+    second: sripsheet01_90
+  - first:
+      213: 8028846503704578624
+    second: sripsheet01_91
+  - first:
+      213: -6096111270152139328
+    second: sripsheet01_92
+  - first:
+      213: 4377356822456584839
+    second: sripsheet01_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sripsheet01_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 468
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feff62ddb85ea20c0800000000000000
+      internalID: -4599611680532004881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 332
+        width: 73
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fefa683b6056fe0800000000000000
+      internalID: -1196542757868408969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 434
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f9c0a90fe2b12c0800000000000000
+      internalID: -4459919395068797106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 465
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed624a34a360ae4c0800000000000000
+      internalID: -4257583650412681506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 466
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae57223033d53370800000000000000
+      internalID: 8301773692080709293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 490
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e3df4d323182760800000000000000
+      internalID: 7433212229593153105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 490
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1e3023aadfe9c60800000000000000
+      internalID: 7826972109841883584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 477
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a779e87fcab7cd5d0800000000000000
+      internalID: -3036416065936648326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 470
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc34ef2918a0fdf20800000000000000
+      internalID: 3449487391222285261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 416
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39eb697add2af8f50800000000000000
+      internalID: 6885901428155924115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 430
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34da7414bb95b7be0800000000000000
+      internalID: -1478489391872103101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 458
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3d48adec9bb980800000000000000
+      internalID: -8522045325323715926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 458
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f540bad01efcf3e0800000000000000
+      internalID: -2018459184626907660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 426
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62280b8c93cc463e0800000000000000
+      internalID: -2061298180876631514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 409
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ec60d15d57a7860800000000000000
+      internalID: 7528459285278674537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 430
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c287e8748a4bfcd0800000000000000
+      internalID: -2523341233386454332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 427
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e779072c82105380800000000000000
+      internalID: -8984660863444486173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 427
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ba4ddebe3ad0040800000000000000
+      internalID: 4615525426827406080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_18
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 423
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d0af2317a4a1c0800000000000000
+      internalID: -4493282827363625281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 367
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b978959c193a17410800000000000000
+      internalID: 1473138399670536091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 343
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9eeaec2c628b890800000000000000
+      internalID: -7442155766096664104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 389
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24652f87722bd4590800000000000000
+      internalID: -7688293106248952254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_22
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466bc4474b0697cb0800000000000000
+      internalID: -4865751594235546012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_23
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 385
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a074e1d98bbebb0800000000000000
+      internalID: -4905624384132674980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_24
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 385
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bbc5107d90dc050800000000000000
+      internalID: 5822320712305392501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_25
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 386
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eac095c15c155aa0800000000000000
+      internalID: -6172996576708867356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 350
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2910deb2efae55d0800000000000000
+      internalID: -3071824507421320913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 326
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb38f4d7c69b41510800000000000000
+      internalID: 1519042849940669372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_28
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 356
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a5ee3d70989e490800000000000000
+      internalID: -7716485819809244644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_29
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7aecc866fccaa00800000000000000
+      internalID: 769217675729479588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 341
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78d37eca7e8d6c30800000000000000
+      internalID: 4354293072837990523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 341
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b931e25a4abbedbc0800000000000000
+      internalID: -3756358723360124005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_32
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 343
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c670bf46eb38dd50800000000000000
+      internalID: 6762220700862281409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 325
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6136fc3c89e4833c0800000000000000
+      internalID: -4379664219590663402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_34
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b5031f67f43d870800000000000000
+      internalID: 8706389876908514104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_35
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 298
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce7772ebc78de210800000000000000
+      internalID: 1363895571910721228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_36
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 286
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fb4e29a9739f2b0800000000000000
+      internalID: -5550343928728469741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 300
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde30f74f17712c90800000000000000
+      internalID: -7196339753326723364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_38
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 284
+        width: 194
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6319098b8f1d820800000000000000
+      internalID: 2941405503232751340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_39
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 300
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92af2bc294c9640e0800000000000000
+      internalID: -2285967922747475415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_40
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 301
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd9c77158021bf0800000000000000
+      internalID: -355212274613757034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 301
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c192814cf9f9790800000000000000
+      internalID: -7521117188117685156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_42
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 301
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f56b257bd4363bb0800000000000000
+      internalID: -4956716222706391563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_43
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 301
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71a467cc1ffec070800000000000000
+      internalID: 8128714876519752058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_44
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 211
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab113cfbb30df0c0800000000000000
+      internalID: -4540468743394747480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 211
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64188ecc3bddf7570800000000000000
+      internalID: 8466729588786495814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_46
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 211
+        width: 23
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5320bbe5429df0520800000000000000
+      internalID: 2670591854285357621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_47
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 211
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cb99a11e581c2c0800000000000000
+      internalID: -4413098957985956741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 247
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2cd5aff45aecbc0800000000000000
+      internalID: -3760886875886337297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_49
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 196
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27252ed1b9dca710800000000000000
+      internalID: 1705977716825990956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_50
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 253
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0118b108d59307cc0800000000000000
+      internalID: -3715406618836631280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_51
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 253
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8c0cf5a7365cac0800000000000000
+      internalID: -3835550130392479555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_52
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 265
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dabd2ee460f50bf0800000000000000
+      internalID: -358616279022716206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_53
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86465f9a5011e24d0800000000000000
+      internalID: -3157567572716198808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_54
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 207
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9052823cd9a3a62e0800000000000000
+      internalID: -2131827024348044023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_55
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0a1f3b0451ce910800000000000000
+      internalID: 1867891313092960474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_56
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 211
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e4165464eb524f0800000000000000
+      internalID: -854067345295847787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_57
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 211
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e531df905f4c58310800000000000000
+      internalID: 1406747015336760158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_58
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8cc544f16127c40800000000000000
+      internalID: 5508489617774266552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_59
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 198
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a0e70bad9d0a8e0800000000000000
+      internalID: -1684106727349417349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_60
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 199
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78b87757aa6916b0800000000000000
+      internalID: -5325107817429288834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_61
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 215
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56535489b81f62f70800000000000000
+      internalID: 9162276073789273445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_62
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 136
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb1f80b727f83460800000000000000
+      internalID: 7221793752326544383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_63
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 136
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea3267aeafb0d3b0800000000000000
+      internalID: -5489677188911187223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_64
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 135
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ebe3ea927a70d40800000000000000
+      internalID: 5550588863216270989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_65
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 172
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f2dba4ca6550310800000000000000
+      internalID: 1370596959592460062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_66
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 156
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e644b2c0e0c3570800000000000000
+      internalID: 8447642446468509256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_67
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 162
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edd5d23854e817a0800000000000000
+      internalID: -6406119402473398816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_68
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 162
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5219a9271317860800000000000000
+      internalID: 7525850820602045873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_69
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 160
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f76ca13cb19a9d0800000000000000
+      internalID: -2762646371633299615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_70
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 132
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef32969f2cae5310800000000000000
+      internalID: 1395742254921039840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_71
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 150
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4346e92c9b90c0800000000000000
+      internalID: -4567885693266473353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 150
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d3529af5b73b190800000000000000
+      internalID: -7947873266588893835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_73
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 86
+        width: 10
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7ff81d315e670c0800000000000000
+      internalID: -4578220097892517951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_74
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 86
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e9680d38791f8e0800000000000000
+      internalID: -1661380195128009075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_75
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 128
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c566e1e20f78560800000000000000
+      internalID: 7316080200555846749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_76
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 135
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b98340afdee88000800000000000000
+      internalID: 38543241066547635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 86
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5352134d41a5190800000000000000
+      internalID: -7973037288715897439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_78
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 86
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138251f9fa77ce610800000000000000
+      internalID: 1651826759510075441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_79
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 84
+        width: 122
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ff4488fda5eb9a0800000000000000
+      internalID: -6215430519614275704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_80
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 86
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9938f3fa1ab28f6c0800000000000000
+      internalID: -4109486686545673319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_81
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 86
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ef4901f5eecd460800000000000000
+      internalID: 7267945990736641569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_82
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 86
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a652a53f996ceda10800000000000000
+      internalID: 1936203254330959210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_83
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 87
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aea2d28db5955de0800000000000000
+      internalID: -1345004272524022108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e472f9d89620d9a0800000000000000
+      internalID: -6210421448210484000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_85
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 67
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264ef8c7358d15980800000000000000
+      internalID: -8551816364316171166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_86
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 61
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eeb22b993ef01d0800000000000000
+      internalID: -3382234545873228206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_87
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17437bf379d35f9a0800000000000000
+      internalID: -6199981592187292559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_88
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 67
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3941c5a7a34d5f30800000000000000
+      internalID: 4565879984543058234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_89
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 61
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9f960ee636d6310800000000000000
+      internalID: 1399884387044686251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_90
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 238
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca73b5999d1df2dc0800000000000000
+      internalID: -3661477239517923412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_91
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 27
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ac2714b513c6f60800000000000000
+      internalID: 8028846503704578624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_92
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd835f2913466ba0800000000000000
+      internalID: -6096111270152139328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sripsheet01_93
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a48a976de7fbc30800000000000000
+      internalID: 4377356822456584839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sripsheet01_0: -4599611680532004881
+      sripsheet01_1: -1196542757868408969
+      sripsheet01_10: -1478489391872103101
+      sripsheet01_11: -8522045325323715926
+      sripsheet01_12: -2018459184626907660
+      sripsheet01_13: -2061298180876631514
+      sripsheet01_14: 7528459285278674537
+      sripsheet01_15: -2523341233386454332
+      sripsheet01_16: -8984660863444486173
+      sripsheet01_17: 4615525426827406080
+      sripsheet01_18: -4493282827363625281
+      sripsheet01_19: 1473138399670536091
+      sripsheet01_2: -4459919395068797106
+      sripsheet01_20: -7442155766096664104
+      sripsheet01_21: -7688293106248952254
+      sripsheet01_22: -4865751594235546012
+      sripsheet01_23: -4905624384132674980
+      sripsheet01_24: 5822320712305392501
+      sripsheet01_25: -6172996576708867356
+      sripsheet01_26: -3071824507421320913
+      sripsheet01_27: 1519042849940669372
+      sripsheet01_28: -7716485819809244644
+      sripsheet01_29: 769217675729479588
+      sripsheet01_3: -4257583650412681506
+      sripsheet01_30: 4354293072837990523
+      sripsheet01_31: -3756358723360124005
+      sripsheet01_32: 6762220700862281409
+      sripsheet01_33: -4379664219590663402
+      sripsheet01_34: 8706389876908514104
+      sripsheet01_35: 1363895571910721228
+      sripsheet01_36: -5550343928728469741
+      sripsheet01_37: -7196339753326723364
+      sripsheet01_38: 2941405503232751340
+      sripsheet01_39: -2285967922747475415
+      sripsheet01_4: 8301773692080709293
+      sripsheet01_40: -355212274613757034
+      sripsheet01_41: -7521117188117685156
+      sripsheet01_42: -4956716222706391563
+      sripsheet01_43: 8128714876519752058
+      sripsheet01_44: -4540468743394747480
+      sripsheet01_45: 8466729588786495814
+      sripsheet01_46: 2670591854285357621
+      sripsheet01_47: -4413098957985956741
+      sripsheet01_48: -3760886875886337297
+      sripsheet01_49: 1705977716825990956
+      sripsheet01_5: 7433212229593153105
+      sripsheet01_50: -3715406618836631280
+      sripsheet01_51: -3835550130392479555
+      sripsheet01_52: -358616279022716206
+      sripsheet01_53: -3157567572716198808
+      sripsheet01_54: -2131827024348044023
+      sripsheet01_55: 1867891313092960474
+      sripsheet01_56: -854067345295847787
+      sripsheet01_57: 1406747015336760158
+      sripsheet01_58: 5508489617774266552
+      sripsheet01_59: -1684106727349417349
+      sripsheet01_6: 7826972109841883584
+      sripsheet01_60: -5325107817429288834
+      sripsheet01_61: 9162276073789273445
+      sripsheet01_62: 7221793752326544383
+      sripsheet01_63: -5489677188911187223
+      sripsheet01_64: 5550588863216270989
+      sripsheet01_65: 1370596959592460062
+      sripsheet01_66: 8447642446468509256
+      sripsheet01_67: -6406119402473398816
+      sripsheet01_68: 7525850820602045873
+      sripsheet01_69: -2762646371633299615
+      sripsheet01_7: -3036416065936648326
+      sripsheet01_70: 1395742254921039840
+      sripsheet01_71: -4567885693266473353
+      sripsheet01_72: -7947873266588893835
+      sripsheet01_73: -4578220097892517951
+      sripsheet01_74: -1661380195128009075
+      sripsheet01_75: 7316080200555846749
+      sripsheet01_76: 38543241066547635
+      sripsheet01_77: -7973037288715897439
+      sripsheet01_78: 1651826759510075441
+      sripsheet01_79: -6215430519614275704
+      sripsheet01_8: 3449487391222285261
+      sripsheet01_80: -4109486686545673319
+      sripsheet01_81: 7267945990736641569
+      sripsheet01_82: 1936203254330959210
+      sripsheet01_83: -1345004272524022108
+      sripsheet01_84: -6210421448210484000
+      sripsheet01_85: -8551816364316171166
+      sripsheet01_86: -3382234545873228206
+      sripsheet01_87: -6199981592187292559
+      sripsheet01_88: 4565879984543058234
+      sripsheet01_89: 1399884387044686251
+      sripsheet01_9: 6885901428155924115
+      sripsheet01_90: -3661477239517923412
+      sripsheet01_91: 8028846503704578624
+      sripsheet01_92: -6096111270152139328
+      sripsheet01_93: 4377356822456584839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
