@@ -16,8 +16,8 @@ public class Mario : MonoBehaviour
     private Boolean death = false;
     private GameController2 gameController;
     private AudioSource audio;
-    public AudioClip sonido;
-
+    public AudioClip sonidoSalto;
+    public AudioClip sonidoMuerte;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Start()
@@ -39,6 +39,7 @@ public class Mario : MonoBehaviour
 
             if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && suelo)
             {
+                reproducirSonidoSalto();
                 GetComponent<Rigidbody2D>().AddForce(Vector3.up * salto, ForceMode2D.Impulse);
                 contador++;
                 Debug.Log("Saltos: " + contador);
@@ -92,6 +93,7 @@ public class Mario : MonoBehaviour
         {
             death = true;
             gameController.reducirVidas();
+            reproducirSonidoMuerte();
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -104,8 +106,13 @@ public class Mario : MonoBehaviour
         this.transform.position = inicio;
     }
 
-    public void reproducirSonido()
+    public void reproducirSonidoSalto()
     {
-        audio.PlayOneShot(sonido);
+        audio.PlayOneShot(sonidoSalto);
+    }   
+       public void reproducirSonidoMuerte()
+    {
+        audio.PlayOneShot(sonidoMuerte);
     }
+    
 }

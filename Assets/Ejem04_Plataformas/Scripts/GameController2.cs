@@ -12,8 +12,12 @@ public class GameController2 : MonoBehaviour
     public TextMeshProUGUI texto;
     public Canvas canvas;
     public int vidas = 3;
+    private AudioSource audioSource;
+    public AudioClip sonidoFondo;
+    public AudioClip gameOver;
     private void Awake()
     {
+        
         // Evitar que el GameController2 se duplique al cargar la nueva escena
         if (objetoGameController != null && objetoGameController != this)
         {
@@ -43,6 +47,8 @@ public class GameController2 : MonoBehaviour
     }
     private void Start()
     {
+        audioSource = this.GetComponent<AudioSource>();
+        audioSource.PlayOneShot(sonidoFondo);
         texto.text = vidas.ToString();
         InvokeRepeating("crearFlecha", 2, 2);
     }
@@ -59,11 +65,18 @@ public class GameController2 : MonoBehaviour
             texto.text = "Game Over";
             Destroy(mario);
             texto.rectTransform.position = (new Vector2(400, 150));
+            audioSource.Stop();
+            reproducirGameOver();
+            
         }
         else
         {
             vidas--;
             texto.text = vidas.ToString();
         }
+    }
+    public void reproducirGameOver()
+    {
+        audioSource.PlayOneShot(gameOver);
     }
 }
