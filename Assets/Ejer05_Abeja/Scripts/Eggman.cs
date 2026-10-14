@@ -26,12 +26,12 @@ public class Eggman : MonoBehaviour
             this.transform.position = inicio;
         }
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
             gameController.aumentarChoque();
+            Destroy(collision.gameObject);
         }
     }
 }
