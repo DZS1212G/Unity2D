@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Abejas : MonoBehaviour
@@ -13,5 +14,10 @@ public class Abejas : MonoBehaviour
     void Update()
     {
         this.transform.Translate(Vector3.right * Time.deltaTime * speed * -1);
+        if (this.transform.position.x<-10.5)
+        {
+            Destroy(this.gameObject);
+        }
     }
+    
 }

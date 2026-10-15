@@ -7,10 +7,14 @@ public class Eggman : MonoBehaviour
     private float limitesup = 4.5f;
     private Vector3 inicio;  // Start is called once before the first execution of Update after the MonoBehaviour is created
     private GameControllerAbejas gameController;
+    private AudioSource sonido;
+    public AudioClip daño;
     void Start()
     {
         inicio = this.transform.position;
         gameController = GameObject.Find("GameController").GetComponent<GameControllerAbejas>();
+        sonido = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -32,6 +36,7 @@ public class Eggman : MonoBehaviour
         {
             gameController.aumentarChoque();
             Destroy(collision.gameObject);
+            sonido.PlayOneShot(daño);
         }
     }
 }

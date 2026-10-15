@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MovFondoAbejas : MonoBehaviour
 {
-    private float speed = 0.1f;
+    public float speed = 0.1f;
     private MeshRenderer mesh;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

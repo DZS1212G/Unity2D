@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ejem04_Plataformas/Scene/Platform1.unity
     guid: a663306b5ad15ce4688d0957131343b7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ejem04_Plataformas/Scene/Platform2.unity
     guid: 7a3c3d9105053f24982656166ab5afec
   - enabled: 1
