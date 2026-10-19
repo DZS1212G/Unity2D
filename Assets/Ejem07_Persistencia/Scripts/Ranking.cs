@@ -8,7 +8,7 @@ public static class Ranking
     public const int TAMANO = 5;
 
     // Carga el ranking guardado en dos arrays (nombres y puntos)
-    public static void Cargar(string[] nombres, int[] puntos)
+    public static void Cargar(string[] nombres)
     {
         for (int i = 0; i < TAMANO; i++)
         {
@@ -20,7 +20,7 @@ public static class Ranking
 
     // Intenta meter una puntuación nueva en el top 5.
     // Devuelve la posición en la que ha quedado (0 a 4) o -1 si no entra.
-    public static int GuardarPuntuacion(string nombre, int puntosNuevos)
+    public static int GuardarPuntuacion(string nombre)
     {
         string[] nombres = new string[TAMANO];
         int[] puntos = new int[TAMANO];
@@ -30,20 +30,9 @@ public static class Ranking
 
         for (int i = 0; i < TAMANO; i++)
         {
-            if (puntosNuevos > puntos[i])
-            {
-                // Bajamos una posición todo lo que hay por debajo (el último se pierde)
-                for (int j = TAMANO - 1; j > i; j--)
-                {
-                    puntos[j] = puntos[j - 1];
-                    nombres[j] = nombres[j - 1];
-                }
-                // Metemos la nueva puntuación en su hueco
-                puntos[i] = puntosNuevos;
+            
                 nombres[i] = nombre;
                 posicion = i;
-                break;   // ya está colocada, salimos
-            }
         }
 
         // Volvemos a guardar las 5 posiciones
@@ -55,7 +44,6 @@ public static class Ranking
 
         // Guardamos también la última partida, para mostrarla en la pantalla de ranking
         PlayerPrefs.SetString("UltimoNombre", nombre);
-        PlayerPrefs.SetInt("UltimosPuntos", puntosNuevos);
         PlayerPrefs.SetInt("UltimaPosicion", posicion);
 
         PlayerPrefs.Save();   // fuerza la escritura en disco
