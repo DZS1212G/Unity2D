@@ -23,10 +23,10 @@ public class PersonajeLaberinto : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       float movH = Input.GetAxis("Horizontal");
-       float movV = Input.GetAxis("Vertical");
+        float movH = Input.GetAxis("Horizontal");
+        float movV = Input.GetAxis("Vertical");
 
-       this.gameObject.transform.position += new Vector3(movH, movV, 0)*speed*Time.deltaTime;
+        this.gameObject.transform.position += new Vector3(movH, movV, 0) * speed * Time.deltaTime;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

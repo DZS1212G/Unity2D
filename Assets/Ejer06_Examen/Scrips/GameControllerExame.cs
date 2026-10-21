@@ -12,7 +12,7 @@ public class GameControllerExame : MonoBehaviour
     void Start()
     {
         texto.text = "Llevas " + colisiones + " choques";
-       
+
     }
 
     // Update is called once per frame
@@ -31,13 +31,13 @@ public class GameControllerExame : MonoBehaviour
         if (colisiones >= 10)
         {
             SceneManager.LoadScene("Fin");
-            string mes = ("Perdiste" + PlayerPrefs.GetString("nombre"));
+            string mes = ("Perdiste " + PlayerPrefs.GetString("nombre"));
             Debug.Log(mes);
         }
         else
         {
             texto.text = "Llevas " + colisiones + " choques";
         }
-        
+
     }
 }
