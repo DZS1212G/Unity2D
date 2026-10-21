@@ -31,6 +31,8 @@ public class GameControllerExame : MonoBehaviour
         if (colisiones >= 10)
         {
             SceneManager.LoadScene("Fin");
+            string mes = ("Perdiste" + PlayerPrefs.GetString("nombre"));
+            Debug.Log(mes);
         }
         else
         {
