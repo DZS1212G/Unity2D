@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
+using UnityEngine.SceneManagement;
 
 public class GameController7 : MonoBehaviour
 {
@@ -12,7 +13,10 @@ public class GameController7 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        aumentarCaidas();
+        if (texto != null)
+        {
+            aumentarCaidas();
+        }
     }
 
     // Update is called once per frame
@@ -24,9 +28,16 @@ public class GameController7 : MonoBehaviour
             if (textoFinish.transform.position.y >= 140)
             {
                 over = false;
+                Application.Quit();
             }
         }
-
+        if (texto!= null)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene("FinPartida");
+            }
+        }
 
     }
     public void aumentarCaidas()
@@ -44,4 +55,14 @@ public class GameController7 : MonoBehaviour
         Destroy(bola.gameObject);
         over = true;
     }
+    public void iniciarPartida()
+    {
+        SceneManager.LoadScene("Ejer07");
+    }
+
+    public void finalizarPartida()
+    {
+        Application.Quit();
+    }
+
 }

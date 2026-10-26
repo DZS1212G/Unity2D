@@ -11,15 +11,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ejer05_Abeja/Scenes/Ejer05_Scene2.unity
     guid: 2aaf68e979793144ea8bdfd421dbf845
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ejer06_Examen/Scenes/Nombre.unity
     guid: 96d4eef613e4e414cb785e3556630c05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ejer06_Examen/Scenes/Laberinto.unity
     guid: 8ae429d5197a97e4e93e0104892550d8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ejer06_Examen/Scenes/Fin.unity
     guid: 5d2d8470ff28bbf44bc9f9b5e686b621
+  - enabled: 1
+    path: Assets/Ejer07_Examen2/Scenes/Ejer07.unity
+    guid: 90055eb172748f545a5c1c596e17d505
+  - enabled: 1
+    path: Assets/Ejer07_Examen2/Scenes/FinPartida.unity
+    guid: d954aa60be5552442a2034b45e4627b0
+  - enabled: 1
+    path: Assets/Ejer07_Examen2/Scenes/InicioPartida.unity
+    guid: 8c584d37e7a5d4548a10898b7ef9208a
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

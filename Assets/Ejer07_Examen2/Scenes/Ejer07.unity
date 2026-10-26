@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameController7
   texto: {fileID: 2145464731}
   bola: {fileID: 1220455421}
-  gameFinish: {fileID: 1293329194}
+  textoFinish: {fileID: 1293329194}
 --- !u!1001 &2005843480
 PrefabInstance:
   m_ObjectHideFlags: 0
